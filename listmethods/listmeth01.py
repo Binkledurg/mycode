@@ -16,12 +16,15 @@ print(protoa)
 print(proto)
 
 # Counts the number times 'http' appears in the list
-proto.count("http")
+print(proto.count("http"))
 
 # Inserts 'http' after the second item in the proto list
 proto.insert(1, "http")
 
-# Count the number of time 'http' appears in the list and then prints the list
-proto.count("http")
+# Print the updated proto list
 print(proto)
+
+# Count the number of time 'http' appears in the list and then prints the list
+print(proto.count("http"))
+# print(proto)
 
